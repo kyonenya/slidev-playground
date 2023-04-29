@@ -1,16 +1,19 @@
 ---
-theme: seriph
+theme: ./theme
 background: https://www.gozaisho.co.jp/wordpress/wp-content/uploads/2020/07/c.jpg
-class: 'text-center'
+class: text-center
 info: 世界性の視点依存性テーゼ・世界の多重入れ子構造・世界の外側からの眺めとしての準観察テーゼ・現象学的還元としての形相的還元
 drawings:
   presenterOnly: true
 transition: slide-left
 css: unocss
-canvasWidth: 980
+canvasWidth: 900
+title: 世界の世界性の視点依存性テーゼ／世界の多重入れ子構造について
 ---
 
-# 世界の世界性の視点依存性テーゼ／世界の多重入れ子構造について
+# 世界の世界性の視点依存性テーゼ／<br />世界の多重入れ子構造について
+
+## 京念屋 隆史
 
 ---
 
@@ -144,11 +147,6 @@ graph TD
     end
     A[我々]
   end
-
-style W1 fill: #888
-style W2 fill: #666
-style W2_2 fill: #666
-style W3 fill: #444
 ```
 
 ---
