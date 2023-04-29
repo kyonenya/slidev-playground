@@ -49,6 +49,19 @@
   h6:not(.opacity-100) {
     @apply opacity-40;
   }
+  
+  /* added */
+  li {
+    list-style-type: disc;
+  }
+  
+  li li {
+    list-style-type: circle;
+  }
+
+  li li li {
+    list-style-type: square;
+  }
 }
 
 .slidev-layout.cover,
