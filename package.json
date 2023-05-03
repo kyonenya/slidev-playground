@@ -12,7 +12,8 @@
     "@slidev/theme-default": "^0.21.2",
     "@slidev/theme-seriph": "^0.21.3",
     "@slidev/types": "^0.40.16",
-    "playwright-chromium": "^1.33.0",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "playwright": "^1.33.0",
+    "playwright-chromium": "^1.33.0"
   }
 }
