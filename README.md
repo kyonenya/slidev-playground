@@ -17,3 +17,7 @@
 ## フロントマター
 
 - [カスタマイズ | Slidev](https://ja.sli.dev/custom/#%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%83%9E%E3%82%BF%E3%83%BC%E3%81%AE%E8%A8%AD%E5%AE%9A)
+
+## サンプルスライド
+
+- [slidev/slides.md at main · slidevjs/slidev · GitHub](https://github.com/slidevjs/slidev/blob/main/demo/starter/slides.md)
