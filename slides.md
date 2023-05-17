@@ -4,6 +4,7 @@ background: https://www.gozaisho.co.jp/wordpress/wp-content/uploads/2020/07/c.jp
 fonts:
   sans: 'Noto Sans JP'
   serif: 'Noto Serif JP'
+download: true
 info: 世界性の視点依存性テーゼ・世界の多重入れ子構造・世界の外側からの眺めとしての準観察テーゼ・現象学的還元としての形相的還元
 ---
 
