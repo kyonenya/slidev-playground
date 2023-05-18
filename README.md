@@ -2,8 +2,10 @@
 
 ## PDFダウンロード
 
-- PDFダウンロード時の [Vercelビルドエラー](https://vercel.com/kyonenya/slidev-playground/Dn8LXsJSL3ruKGowrEGbKCxwcraK) は Build Command を `npx install playwright & npm run build` にすると直った
-- `canvasWidth` を 980 -> 900 に拡大したら真っ白のページができたりしたので指定しないほうがいい 
+- PDFダウンロード時の [Vercelビルドエラー](https://vercel.com/kyonenya/slidev-playground/Dn8LXsJSL3ruKGowrEGbKCxwcraK) は~~ Build Command を `npx install playwright & npm run build` にすると直った~~
+  - [next.js - How to update playwright browsers in nextjs vercel? - Stack Overflow](https://stackoverflow.com/questions/73325159/how-to-update-playwright-browsers-in-nextjs-vercel)
+- `canvasWidth` を 980 -> 900 に拡大したら真っ白のページができたりしたので指定しないほうがいい
+- [エクスポート | Slidev](https://ja.sli.dev/guide/exporting.html)
  
 ## レイアウト
 
