@@ -6,6 +6,9 @@
   - [next.js - How to update playwright browsers in nextjs vercel? - Stack Overflow](https://stackoverflow.com/questions/73325159/how-to-update-playwright-browsers-in-nextjs-vercel) で解決に一歩近づいた
     - `"vercel-build": "slidev build && npx playwright install",`
   - 間違って deps に playwright 本体を入れていたのを消したら直った
+  - 直ってない。同じく "browserType.launch: Executable doesn't exist at /vercel/.cache/ms-playwright/chromium-1060/chrome-linux/chrome" エラーが出る
+    - `npx playwright install chromium`か？
+      - https://github.com/microsoft/playwright/issues/18955#issuecomment-1325504987
 - `canvasWidth` を 980 -> 900 に拡大したら真っ白のページができたりしたので指定しないほうがいい
 - [エクスポート | Slidev](https://ja.sli.dev/guide/exporting.html)
  
