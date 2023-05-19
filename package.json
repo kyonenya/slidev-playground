@@ -15,6 +15,7 @@
     "@slidev/types": "^0.40.16",
     "nodemon": "^2.0.22",
     "npx": "^10.2.2",
+    "playwright": "^1.33.0",
     "playwright-chromium": "^1.33.0"
   }
 }
