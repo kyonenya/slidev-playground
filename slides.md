@@ -1,5 +1,5 @@
 ---
-theme: ./theme
+theme: seriph
 background: https://www.gozaisho.co.jp/wordpress/wp-content/uploads/2020/07/c.jpg
 fonts:
   sans: 'Noto Sans JP'

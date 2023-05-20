@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "vercel-build": "slidev build && npx playwright install chromium",
+    "vercel-build": "npx playwright install chromium && slidev build",
     "dev": "nodemon -w '../../packages/slidev/dist/*.js' --exec \"slidev ./slides.md --open=false --log=info\"",
     "export": "slidev export",
     "export-notes": "slidev export-notes",
