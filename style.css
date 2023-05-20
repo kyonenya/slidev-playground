@@ -1,12 +1,83 @@
+:root {
+  /* --slidev-theme-primary: #5d8392; (=hsl(196, 22%, 46%)) */
+  --slidev-theme-primary: hsl(202, 40%, 42%);
+}
+
+.slidev-layout {
+  h1 + p {
+    /* @apply -mt-2 opacity-50 mb-4; */
+    @apply -mt-2 opacity-60 mb-4;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    /* @apply mt-10; */
+    @apply mt-5;
+  }
+
+  h1 {
+    /* @apply text-4xl mb-4 -ml-[0.05em]; */
+    @apply text-3xl mb-4 -ml-[0.05em];
+  }
+
+  h2 {
+    /* @apply text-3xl; */
+    @apply text-2xl;
+  }
+
+  h3 {
+    /* @apply text-2xl; */
+    @apply text-xl;
+  }
+
+  h4 {
+    /* @apply text-xl; */
+    @apply text-base;
+  }
+
+  h5 {
+    /* @apply text-base; */
+    @apply text-sm pt-1 uppercase tracking-widest font-500 -ml-[0.05em];
+  }
+
+  h6 {
+    /* @apply text-sm pt-1 uppercase tracking-widest font-500 -ml-[0.05em] */
+    @apply text-sm;
+  }
+
+  li {
+    list-style-type: disc;
+  }
+
+  li li {
+    list-style-type: circle;
+  }
+
+  li li li {
+    list-style-type: square;
+  }
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  h1 {
+    /* @apply text-6xl leading-20; */
+    @apply text-5xl leading-20;
+  }
+}
+
 .slidev-layout.section {
   h1 {
-    @apply text-5xl font-500 leading-20; /* default: text-6xl */
+    /* text-6xl font-500 leading-20 */
+    @apply text-5xl font-500 leading-20;
   }
 }
 
 /* two-cols系のレイアウトのgapを広くとる */
 .slidev-layout.two-columns {
   div {
-    @apply gap-x-6; /* default: none (gap-x-0) */
+    /* none (gap-x-0) */
+    @apply gap-x-6;
   }
 }
