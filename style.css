@@ -1,1 +1,12 @@
-/* add any global style here */
+.slidev-layout.section {
+  h1 {
+    @apply text-5xl font-500 leading-20; /* default: text-6xl */
+  }
+}
+
+/* two-cols系のレイアウトのgapを広くとる */
+.slidev-layout.two-columns {
+  div {
+    @apply gap-x-6; /* default: none (gap-x-0) */
+  }
+}
