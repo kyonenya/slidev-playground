@@ -4,14 +4,18 @@
 
 - PDFダウンロード時の [Vercelビルドエラー](https://vercel.com/kyonenya/slidev-playground/Dn8LXsJSL3ruKGowrEGbKCxwcraK) は~~Build Command を npx install playwright & npm run build にすると直った~~
   - [next.js - How to update playwright browsers in nextjs vercel? - Stack Overflow](https://stackoverflow.com/questions/73325159/how-to-update-playwright-browsers-in-nextjs-vercel) で解決に一歩近づいた
-    - `"vercel-build": "slidev build && npx playwright install",`
-  - 間違って deps に playwright 本体を入れていたのを消したら直った
+    - ~~`"vercel-build": "slidev build && npx playwright install",`~~
+  - ~~間違って deps に playwright 本体を入れていたのを消したら直った~~
   - 直ってない。同じく "browserType.launch: Executable doesn't exist at /vercel/.cache/ms-playwright/chromium-1060/chrome-linux/chrome" エラーが出る
-    - `npx playwright install chromium`か？
+    - `npx playwright install chromium` が正解だ
       - https://github.com/microsoft/playwright/issues/18955#issuecomment-1325504987
+    - "BEWARE: your OS is not officially supported by Playwright; downloading fallback build." という警告は出るけどビルドは通った
+    - chromium をインストールしてからビルド、の順番でなければならない
+	    - `"vercel-build": "npx playwright install chromium && slidev build",`
 - `canvasWidth` を 980 -> 900 に拡大したら真っ白のページができたりしたので指定しないほうがいい
 - [エクスポート | Slidev](https://ja.sli.dev/guide/exporting.html)
- 
+- [Browsers | Playwright](https://playwright.dev/docs/browsers#install-system-dependencies)
+
 ## レイアウト
 
 - [slidev/packages/client/layouts at  main · slidevjs/slidev](https://github.com/slidevjs/slidev/tree/main/packages/client/layouts)
