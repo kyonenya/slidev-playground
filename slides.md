@@ -31,7 +31,7 @@ flowchart BT
     A2 --> B1
     B1 --> C[C<br>識別問題への解答]
     B2 --> C
-subgraph A 想像の像《イメージ》説批判 
+subgraph A 想像の像＝イメージ説批判 
     A1[A1 心像]
     A2[A2 意識像]
 end
