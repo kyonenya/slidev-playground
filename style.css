@@ -57,6 +57,14 @@
   li li li {
     list-style-type: square;
   }
+  
+  blockquote {
+    @apply text-base my-4
+  }
+  
+  blockquote p + p {
+    @apply pt-2
+  }
 }
 
 .slidev-layout.cover,
