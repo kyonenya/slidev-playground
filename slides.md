@@ -147,3 +147,22 @@ graph TD
 	- 身体位置がこちらの世界にある、という点は動かないのだが、しかし、視点位置だけはその身体位置を抜け出て、内側の世界に入り込むことができる。このとき観入が成立する
 		- ドローンカメラのようなものを思い浮かべて欲しい
 	- ゆえに観入の意識は視点位置と身体位置の間で引き裂かれている
+
+---
+layout: two-cols-header
+
+---
+
+# 図
+
+::left::
+	
+## 外側からの眺め
+
+<img src="/observation-outside.drawio.png" class="m-1" />
+
+::right::
+
+## 内側からの眺め
+
+<img src="/observation-inside.drawio.png" class="m-1" />
