@@ -57,13 +57,22 @@
   li li li {
     list-style-type: square;
   }
-  
+
   blockquote {
-    @apply text-base my-4
+    @apply text-base my-4;
   }
-  
+
   blockquote p + p {
-    @apply pt-2
+    @apply pt-2;
+  }
+
+  table {
+    /*余白*/
+    @apply my-4;
+  }
+
+  thead {
+    @apply bg-gray-100;
   }
 }
 
@@ -87,5 +96,14 @@
   div {
     /* none (gap-x-0) */
     @apply gap-x-6;
+  }
+}
+
+html.dark {
+  /* ダークモードのCSS */
+  .slidev-layout {
+    thead {
+      @apply bg-gray-700;
+    }
   }
 }
