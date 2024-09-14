@@ -44,33 +44,14 @@ title: 博論の全体構成
 flowchart BT
     A1 --> A2
     A2 --> B1
-    B1 --> C
-    B2 --> C[多世界説]
-subgraph A 想像のイメージ説批判
+    B1 --> C[C 多世界説]
+    B2 --> C
+subgraph A 想像の「像」説批判
     A1[A1 心像説批判]
     A2[A2 意識＝像説批判]
 end
 subgraph B 想像の世界性をめぐる争い
-    B1[B1 サルトルの準観察テーゼ]
-    B2[B2 準観察テーゼ論駁]
-end
-```
-
----
-
-```mermaid
-flowchart BT
-    A1 --> A2
-    A2 --> B1
-    B1 --> C1
-    B2 --> C1
-    C1 --> C2
-subgraph A 想像のイメージ説批判
-    A1[A1 心像説批判]
-    A2[A2 意識＝像説批判]
-end
-subgraph B 想像の世界性をめぐる争い
-    B1[B1 サルトルの準観察テーゼ]
+    B1[B1 準観察テーゼ擁護]
     B2[B2 準観察テーゼ論駁]
 end
 ```
