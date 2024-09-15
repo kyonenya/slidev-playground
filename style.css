@@ -89,6 +89,24 @@
     /* text-6xl font-500 leading-20 */
     @apply text-5xl font-500 leading-20;
   }
+
+  h2 {
+    color: var(--slidev-theme-primary);
+    @apply text-4xl font-400 leading-12 ;
+  }
+  
+  h2 + p {
+    /* @apply -mt-2 opacity-50 mb-4; */
+    @apply mt-2 opacity-70 mb-4;
+  }
+  
+  ul {
+    @apply ml-80 text-center
+  }
+  
+  li {
+    @apply text-left
+  }
 }
 
 /* two-cols系のレイアウトのgapを広くとる */
